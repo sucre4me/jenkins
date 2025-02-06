@@ -12,8 +12,8 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: nginx
+      - name: webserver
+        image: sunkanmi/webserver:uat
         ports:
         - containerPort: 80
   replicas: 4
